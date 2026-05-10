@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.font-outfit {
+    font-family: "Outfit", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+@theme {
+    --color-primary: #ce9309;
+}
+
+.active hr{
+    @apply block;
+}
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
+
+@layer utilities {
+    .grid-cols-auto {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    /* Force English locale for date inputs */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        cursor: pointer;
+    }
+}
+
+/* English date format for all date inputs */
+input[type="date"] {
+    direction: ltr;
+    text-align: left;
+}
