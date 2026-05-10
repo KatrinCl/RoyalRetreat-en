@@ -67,32 +67,6 @@ Royal Retreat hotel is a city-located place for pleasant and comfortable leisure
 
 ---
 
-## 📝 Installation and Setup
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Backend
-```bash
-cd backend
-npm install
-npx prisma migrate dev
-npm run server
-```
-
-### Admin Panel
-```bash
-cd admin
-npm install
-npm run dev
-```
-
----
-
 ## 📞 Contacts
 
 If you have questions or suggestions — contact me at katya55293@gmail.com, +7-901-285-3563.
