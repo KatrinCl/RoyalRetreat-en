@@ -17,7 +17,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'https://royal-retreat-backend.vercel.app', 'https://royal-retreat-frontend.vercel.app']
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'https://royal-retreat-en-server.vercel.app', 'https://royal-retreat-en.vercel.app']
 
 app.use(cors({
     origin: allowedOrigins,

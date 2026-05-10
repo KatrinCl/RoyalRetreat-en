@@ -4,7 +4,9 @@
 
 ## 🔗 Demo
 
-https://royal-retreat-frontend.vercel.app
+https://royal-retreat-en.vercel.app
+
+https://github.com/KatrinCl/RoyalRetreat-en
 
 ---
 
